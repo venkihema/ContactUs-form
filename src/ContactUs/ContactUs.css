@@ -1,0 +1,70 @@
+.Form {
+  width: 40%;
+  height: 100vh;
+  margin: auto;
+  background-color: #b39afd;
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 8px 8px 8px #9965f4;
+}
+.Header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.Header h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 5px 5px 8px rgb(236, 21, 190);
+}
+.infoField {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.labelField {
+  width: 30%;
+}
+.inputField {
+  width: 70%;
+}
+.inputField input {
+  width: 100%;
+}
+input {
+  box-sizing: border-box;
+  height: 35px;
+  padding: 10px;
+  font-size: large;
+  border: 1px solid violet;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px #888888;
+  outline: none;
+}
+input:focus {
+  border: 3px solid violet;
+}
+textarea {
+  box-sizing: border-box;
+  font-size: large;
+  outline: none;
+  width: 70%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px #888888;
+}
+textarea:focus {
+  border: 3px solid violet;
+}
+input[type="submit"]:hover {
+  background-color: #42158f;
+  color: white;
+  transition: 0.7s;
+}
